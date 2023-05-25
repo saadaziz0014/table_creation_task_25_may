@@ -1,4 +1,7 @@
 <?php
+
+//first we need to download mongodb extension and configure it in php.ini
+
 $connect = new MongoDB\Driver\Manager("mongodb://localhost:27017");
 
 echo "Connected successfully";
